@@ -37,6 +37,7 @@ app = FastAPI()
 # This allows your frontend to communicate with the backend
 origins = [
     "http://localhost:3000",
+    "https://foodlens-app-six.vercel.app"
 ]
 app.add_middleware(
     CORSMiddleware,
