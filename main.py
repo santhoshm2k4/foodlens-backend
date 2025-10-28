@@ -121,7 +121,7 @@ def read_user_profile(
 def read_root():
     return {"message": "Hello, NutriLens Backend!"}
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 async def analyze_text_with_groq(text: str, profile: models.Profile = None):
     
