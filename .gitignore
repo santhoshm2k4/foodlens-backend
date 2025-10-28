@@ -1,0 +1,26 @@
+# Python Virtual Environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database file
+nutrilens.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+*.env
+
+# IDE files (Optional but good practice)
+.vscode/
+.idea/
+
+# OS files (Optional but good practice)
+.DS_Store
+Thumbs.db
